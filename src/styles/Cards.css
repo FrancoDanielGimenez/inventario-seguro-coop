@@ -1,0 +1,12 @@
+.conteinerCards{
+    width: '15rem';
+    height:'10rem';
+    text-align: center;
+    margin: 10px 10px 0px 10px;
+}
+
+.conteinerCards:hover{
+    background-color: rgb(121, 252, 104);
+    box-shadow:10px 5px 5px black;
+    cursor: pointer;
+}

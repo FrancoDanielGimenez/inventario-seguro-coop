@@ -3,9 +3,9 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from './pages/login/Login';
 import Home from './pages/home/Home';
-import ImpresoraCoop from './pages/impresoras/ImpresoraCoop';
-import PcEscritorio from './pages/PcEscritorio/PcEscritorio';
-import ElementosInformatico from './pages/otrosElementos/ElementosInformatico';
+import ImpresoraCoop from '../src/pages/cargaElementos/impresoras/ImpresoraCoop';
+import PcEscritorio from '../src/pages/cargaElementos/PcEscritorio/PcEscritorio';
+import ElementosInformatico from '../src/pages/cargaElementos/otrosElementos/ElementosInformatico';
 
 function App() {
 

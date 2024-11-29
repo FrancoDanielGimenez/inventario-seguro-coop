@@ -1,9 +1,13 @@
+import '../home/Home.css';
+import Nav from '../../components/Nav';
+import Cards from '../../components/Cards';
+
 const Home = () =>{
     return(
         <>
-        <div>
-            home
-        </div>
+        <Nav/>
+        <Cards/>
+        <Cards/>
         </>
     )
 }
